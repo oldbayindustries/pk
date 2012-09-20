@@ -108,7 +108,7 @@ NBPAX_PROGRAM_PREFIX=		n
 CURSES_DEFAULT=			ncurses
 
 # Apache
-APACHE_SUEXEC_DOCROOT=		/home
+APACHE_SUEXEC_DOCROOT=		/users/home
 APACHE_SUEXEC_CONFIGURE_ARGS=	--with-suexec-userdir=web/public
 APACHE_MODULES=			all-shared
 
