@@ -109,7 +109,7 @@ CURSES_DEFAULT=			ncurses
 
 # Apache
 APACHE_SUEXEC_DOCROOT=		/users/home
-APACHE_SUEXEC_CONFIGURE_ARGS=	--with-suexec-userdir=web/public
+APACHE_SUEXEC_CONFIGURE_ARGS=	--with-suexec-userdir=web/public --with-suexec-safepath="/bin:/usr/bin:/opt/local/bin:/usr/local/bin:/opt/local/libexec/cgi-bin"
 APACHE_MODULES=			all-shared
 
 # Courier
