@@ -3,7 +3,7 @@ PKG_DEFAULT_OPTIONS=		-x11 dtrace -doc unicode inet6
 
 # Package specific build options
 PKG_OPTIONS.ruby=		-ruby-build-ri-db
-.if defined(PKGPATH) && !empty(PKGPATH:Mapache22)
+.if defined(PKGPATH) && ${PKGPATH} == "www/apache22"
 PKG_OPTIONS.apache=		suexec apache-shared-modules
 .else
 PKG_OPTIONS.apache=		suexec apache-mpm-shared
