@@ -1,4 +1,5 @@
 converters/mpack
+converters/p5-JSON-Any
 databases/percona-toolkit
 devel/p5-Attribute-Handlers
 devel/p5-Date-Simple
@@ -9,6 +10,7 @@ graphics/p5-GD-Graph3d
 graphics/p5-GDGraph
 graphics/p5-GDTextUtil
 graphics/p5-Image-Size 
+joyent/p5-CGI-Application-FastCGI
 joyent/p5-CGI-Session-ExpireSessions
 mail/p5-Email-Address
 mail/p5-Email-MIME
@@ -22,7 +24,12 @@ security/p5-Digest
 textproc/p5-Data-FormValidator
 textproc/p5-XML-DOM
 textproc/p5-libxml
+wip/p5-CGI-Application-Plugin-DevPopup
+wip/p5-CGI-Application-Plugin-Session
+wip/p5-CGI-Application-Plugin-TT
 www/cgilib
+www/p5-CGI-Application
+www/p5-CGI-Application-Plugin-ValidateRM
 www/p5-CGI-Simple
 www/p5-HTML-Template
 www/p5-Test-WWW-Mechanize
