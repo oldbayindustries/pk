@@ -18,6 +18,7 @@ mail/p5-Email-MIME-ContentType
 mail/p5-Email-MIME-Encodings
 mail/p5-Email-MessageID
 mail/p5-Mail-Sender
+net/p5-Geo-IPfree
 net/p5-Net-Akismet
 security/p5-Crypt-GeneratePassword
 security/p5-Digest
