@@ -1,6 +1,7 @@
-pk is a framework that Joyent uses to maintain a defined binary package set
+pk is a framework that TextDrive uses to maintain a defined binary package set
 from a new pkgsrc jumpstart, to pruning stale packages and pushing out to
-a HTTP server via rsync.
+a HTTP server via rsync.  Joyent have switched over to using pbulk instead of
+pk to do bulk pkgsrc builds.
 
 The framework comes with pkgsrc config files that help building on SmartOS,
 some additional patches, and support files for the SMF functionality.
