@@ -58,7 +58,7 @@ The 'meta' directory
 This directory holds SMF support files, and INSTALL/ALTERNATIVES files.
 For SMF functionality, you'll need to use the forked pkgsrc from:
 
-  https://github.com/mamash/pkgsrc
+  https://github.com/joyent/pkgsrc
 
 By default, if a 'manifest.xml' file is found for a package, in a PKGPATH
 directory (e.g. www/apache22) underneath SMFBASE (which defaults to 'meta'),
